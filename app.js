@@ -29,4 +29,12 @@ theList.shift(); //elimina el ultimo
 
 theList.unShift(FIRST); //agrego al principio una palabra 
 
+theList[3] = "hola mundo";
+
+theList.SLICE [2,1, "MEDIO"] ; //se escriben 2 parametros posicion,cuantos elementos se borran y luego lo que queremos agregar
+
+theList.SLICE [4.2]  //elimina null y undifine
+
+theList.push("ULTIMO"); // Agregue ÚLTIMO a la última posición en la matriz.
+
 console.log (theList);
